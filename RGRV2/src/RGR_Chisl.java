@@ -55,7 +55,8 @@ public class RGR_Chisl {
         }
         y_7.add(y_5.get(1) - y_5.get(0));
         double Interpol = y4 + q*(y_2.get(3)) + ((q*(q+1))/2) * (y_3.get(2)) + ((q*(q+1)*(q-1))/6) * (y_4.get(2)) + ((q*(q+1)*(q-1)*(q+2))/24)*y_5.get(1) + ((q*(q-1)*(q+1)*(q-2)*(q+2))/(2*3*4*5)) * y_6.get(0) + ((q*(q-1)*(q+1)*(q-2)*(q+2)*(q-3))/(2*3*4*5*6)) * y_7.get(0);
-        System.out.println(Interpol);
+        System.out.println("Ответ:" + " " + Interpol);
+        System.out.println("Для сравнения:" + " " + 1/x);
 
     }
 }
